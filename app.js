@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const routes = require('./src/routes/route');
 
 const app = express();
+
 app.use(express.json());
 
 mongoose.connect(process.env.DB)
