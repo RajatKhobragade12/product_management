@@ -2,7 +2,7 @@ FROM node:21
 
 WORKDIR /usr/src/app
 
-COPY .env .env
+COPY .env ./
 
 COPY package*.json ./
 
