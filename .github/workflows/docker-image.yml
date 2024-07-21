@@ -20,5 +20,5 @@ jobs:
     - name: Build the Docker image
       run: docker build -t rajatkhobragade12/cicd-pipline .
     - name : Push to Dockerhub
-      run: Docker push rajatkhobragade12/cicd-pipline
+      run: docker push rajatkhobragade12/cicd-pipline
     
