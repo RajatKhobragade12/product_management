@@ -18,5 +18,5 @@ jobs:
     - name: Delete Old docker container
       run: Docker rm -f cicd-pipline-container || true
     - name: Run Docker Container
-      run: docker run -d --env-file .env -p 3000:3000 --name cicd-pipline-container rajatkhobragade12/cicd-pipline
+      run: sudo docker run -d -p 3000:3000 --name cicd-pipline-container rajatkhobragade12/cicd-pipline
     
